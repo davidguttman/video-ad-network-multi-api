@@ -1,0 +1,17 @@
+[
+  {
+    "network": "spotx",
+    "username": "xxx",
+    "password": "xxx"
+  },
+  {
+    "network": "onevideo",
+    "username": "xxx",
+    "password": "xxx"
+  },
+  {
+    "network": "lkqd",
+    "key": "xxx",
+    "secret": "xxx"
+  }
+]

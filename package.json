@@ -1,0 +1,33 @@
+{
+  "name": "video-ad-network-multi-api",
+  "version": "1.0.0",
+  "description": "Pulls reports from multiple video ad networks and attempts to normalize the responses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [],
+  "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "date-range-array": "^1.0.0",
+    "lkqd-api": "^1.0.0",
+    "map-async": "^0.1.1",
+    "onevideo-api": "^1.0.0",
+    "spotx-api": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidguttman/video-ad-network-multi-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidguttman/video-ad-network-multi-api/issues"
+  },
+  "homepage": "https://github.com/davidguttman/video-ad-network-multi-api#readme"
+}

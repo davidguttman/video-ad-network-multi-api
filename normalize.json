@@ -1,0 +1,44 @@
+{
+  "fields": [
+    "channelId",
+    "channelName",
+    "revenue",
+    "impressions",
+    "requests",
+    "clicks",
+    "errors",
+    "opportunities"
+  ],
+
+  "mappings": {
+    "spotx": {
+      "channelId":      "channel_id",
+      "channelName":    "channel_name",
+      "revenue":        "revenue",
+      "impressions":    "impressions",
+      "requests":       "queries",
+      "clicks":         "clicks"
+    },
+
+    "lkqd": {
+      "channelId":     "fieldId",
+      "channelName":   "fieldName",
+      "revenue":       "revenue",
+      "impressions":   "adImpressions",
+      "requests":      "adRequests",
+      "clicks":        "adClicks",
+      "errors":        "adErrors",
+      "opportunities": "adOpportunities"
+    },
+
+    "onevideo": {
+      "channelName":   "inventory_source",
+      "revenue":       "ad_revenue",
+      "impressions":   "ad_impressions",
+      "requests":      "ad_attempts",
+      "clicks":        "clicks",
+      "errors":        "ad_errors",
+      "opportunities": "ad_opportunities"
+    }
+  }
+}

@@ -16,7 +16,7 @@
       "channelName":    "channel_name",
       "revenue":        "revenue",
       "impressions":    "impressions",
-      "requests":       "queries",
+      "opportunities":  "queries",
       "clicks":         "clicks"
     },
 

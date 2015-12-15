@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "date-range-array": "^1.0.0",
-    "lkqd-api": "^3.0.0",
+    "lkqd-api": "^3.0.1",
     "map-async": "^0.1.1",
     "onevideo-api": "^1.0.0",
     "spotx-api": "^1.0.0"

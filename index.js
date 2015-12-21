@@ -31,7 +31,13 @@ function getAccountDate (opts, cb) {
   if (!api) return cb(new Error('Unknown network: ' + network))
 
   api(account, date, function (err, rows) {
-    if (err) return cb(err)
+    if (err) {
+      return cb(null, [{
+        date: date,
+        network: network,
+        error: err.message
+      }])
+    }
 
     cb(null, rows.map(function (raw) {
       var row = {

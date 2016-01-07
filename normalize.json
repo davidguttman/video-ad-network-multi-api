@@ -46,9 +46,9 @@
       "channelName":   "site_name",
       "revenue":       "revenue",
       "impressions":   "impressions",
-      "requests":      "auctions",
+      "requests":      "requests",
       "clicks":        "clicks",
-      "opportunities": "requests"
+      "opportunities": "auctions"
     }
   }
 }

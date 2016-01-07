@@ -2,8 +2,8 @@ var reportFetcher = require('../')
 
 var accounts = require('./accounts.json')
 
-var dateStart = '2015-10-15'
-var dateEnd = '2015-10-15'
+var dateStart = '2016-01-05'
+var dateEnd = '2016-01-05'
 
 reportFetcher(accounts, dateStart, dateEnd, function (err, report) {
   if (err) return console.error(err)

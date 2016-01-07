@@ -6,7 +6,8 @@ var normalize = require('./normalize.json')
 var apis = {
   lkqd: require('lkqd-api'),
   spotx: require('spotx-api'),
-  onevideo: require('onevideo-api')
+  onevideo: require('onevideo-api'),
+  stickyads: require('stickyads-api')
 }
 
 module.exports = function (accounts, dateStart, dateEnd, cb) {
@@ -29,6 +30,8 @@ function getAccountDate (opts, cb) {
 
   var api = apis[network]
   if (!api) return cb(new Error('Unknown network: ' + network))
+
+  if (network === 'stickyads') account = account.token
 
   api(account, date, function (err, rows) {
     if (err) {

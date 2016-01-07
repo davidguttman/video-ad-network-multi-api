@@ -13,5 +13,9 @@
     "network": "lkqd",
     "key": "xxx",
     "secret": "xxx"
+  },
+  {
+    "network": "stickyads",
+    "token": "abcdef0123456789"
   }
 ]

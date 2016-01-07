@@ -39,6 +39,16 @@
       "clicks":        "clicks",
       "errors":        "ad_errors",
       "opportunities": "ad_opportunities"
+    },
+
+    "stickyads": {
+      "channelId":     "site_id",
+      "channelName":   "site_name",
+      "revenue":       "revenue",
+      "impressions":   "impressions",
+      "requests":      "auctions",
+      "clicks":        "clicks",
+      "opportunities": "requests"
     }
   }
 }

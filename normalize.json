@@ -48,7 +48,7 @@
       "impressions":   "impressions",
       "requests":      "requests",
       "clicks":        "clicks",
-      "opportunities": "auctions"
+      "opportunities": "requests"
     }
   }
 }

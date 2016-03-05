@@ -35,7 +35,7 @@
       "channelName":   "inventory_source",
       "revenue":       "ad_revenue",
       "impressions":   "ad_impressions",
-      "requests":      "ad_attempts",
+      "requests":      "ad_opportunities",
       "clicks":        "clicks",
       "errors":        "ad_errors",
       "opportunities": "ad_opportunities"

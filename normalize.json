@@ -49,6 +49,15 @@
       "requests":      "requests",
       "clicks":        "clicks",
       "opportunities": "requests"
+    },
+
+    "verta": {
+      "channelId": "key",
+      "channelName": "source_name",
+      "revenue": "gross_revenue",
+      "impressions": "impressions",
+      "requests": "ad_requests",
+      "opportunities": "ad_opportunities"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "video-ad-network-multi-api",
-  "version": "3.1.4",
+  "version": "3.2.0",
   "description": "Pulls reports from multiple video ad networks and attempts to normalize the responses.",
   "main": "index.js",
   "scripts": {
